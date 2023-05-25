@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:sliding_sheet/sliding_sheet.dart';
-
-import '../widgets/widgets.dart';
 import 'remember_me.dart';
 
 class LoginForm extends StatefulWidget {
@@ -109,7 +106,7 @@ class _LoginFormState extends State<LoginForm> {
             TextButton(
                 onPressed: () {
                   Navigator.of(context).pop();
-                  ShowRegister();
+                  null;
                 },
                 child: Text(
                   'Create',
@@ -120,17 +117,4 @@ class _LoginFormState extends State<LoginForm> {
       ],
     ));
   }
-
-  // ignore: non_constant_identifier_names
-  Future ShowRegister() => showSlidingBottomSheet(context,
-      builder: (context) => const SlidingSheetDialog(
-            padding: EdgeInsets.all(25),
-            shadowColor: Colors.black26,
-            avoidStatusBar: true,
-            snapSpec: SnapSpec(snappings: [0.75, 0.95]),
-            builder: RegisterSheet,
-            color: Colors.redAccent,
-            cornerRadius: 35,
-            duration: Duration(milliseconds: 700),
-          ));
 }

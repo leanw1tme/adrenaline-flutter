@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "128841287591",
+    "project_id": "adrenaline-first-app",
+    "storage_bucket": "adrenaline-first-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128841287591:android:8030470e55fdb9c0b41882",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128841287591-jpdcsblv2nfm5sn4nuc1lmaao761m5oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG0g07jv9GK9CstevLOpWPVeq1pKjE5vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128841287591-jpdcsblv2nfm5sn4nuc1lmaao761m5oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
